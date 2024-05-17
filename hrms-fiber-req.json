@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "hrms",
+    "collectionId": "58b8be2e-637e-4539-a6b2-3f94568540fc",
+    "dateExported": "2024-05-17T18:21:38.462Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c5dbb369-79b7-4c23-bbfb-bf4f50b3e0c7",
+            "colId": "58b8be2e-637e-4539-a6b2-3f94568540fc",
+            "containerId": "",
+            "name": "hrms-home",
+            "url": "localhost:8081/home",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-17T17:56:03.060Z",
+            "modified": "2024-05-17T17:56:40.127Z",
+            "headers": []
+        },
+        {
+            "_id": "7ef7c9a9-4ce1-4903-adaa-63a7db828134",
+            "colId": "58b8be2e-637e-4539-a6b2-3f94568540fc",
+            "containerId": "",
+            "name": "hrms-get-employee",
+            "url": "localhost:8081/get_employees",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-17T17:58:08.742Z",
+            "modified": "2024-05-17T17:58:56.483Z",
+            "headers": []
+        },
+        {
+            "_id": "8c65f8da-8007-4b48-b735-50507521fbf0",
+            "colId": "58b8be2e-637e-4539-a6b2-3f94568540fc",
+            "containerId": "",
+            "name": "register-employee",
+            "url": "localhost:8081/employee_registration",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-17T18:06:17.334Z",
+            "modified": "2024-05-17T18:14:29.104Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"_id\": \"jdklsaiohf\",\n  \"name\": \"New Entry\",\n  \"job_role\": \"SDE 1\",\n  \"date_of_birth\":\"24/2/1888\",\n  \"blood_group\":\"B+ve\",\n  \"team\":\"some\",\n  \"manager\":\"whatever\",\n  \"hr\":\"Nilima\",\n  \"joining_date\":\"20/10/2023\",\n  \"org_email\":\"some@gmail.com\",\n  \"password\":\"rtghnfdsf\",\n  \"personal_email\":\"ashish@whater.com\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Qh71k5JZehh_oy8_vqOp7bKwIlQrN5qPjpmMQ9Nqs-tKQ6RwzPopy361U40fM5os11utLuYRxJ6XRQIPy1lg4w"
+}
